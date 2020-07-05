@@ -1,7 +1,7 @@
 let printBtn = document.getElementById("print-btn");
 
-printBtn.addEventListener("click", printPage);
+printBtn.addEventListener("click", printPageFunction);
 
-function printPage() {
+function printPageFunction() {
   window.print();
 }
